@@ -1,0 +1,11 @@
+server:
+  port: 7788
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .html
+  freemarker:
+    check-template-location: false
+  thymeleaf:
+    check-template-location: false
